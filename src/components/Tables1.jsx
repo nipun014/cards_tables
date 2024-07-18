@@ -29,6 +29,8 @@ const Hw = () => {
             <TableCell style={{color:"red",fontFamily:"fantasy",fontSize:"30px"}}>Title</TableCell>
             <TableCell style={{color:"violet",fontFamily:"fantasy",fontSize:"30px"}}>Price</TableCell>
             <TableCell style={{color:"pink",fontFamily:"fantasy",fontSize:"30px"}}>Category</TableCell>
+            <TableCell style={{color:"yello",fontFamily:"fantasy",fontSize:"30px"}}>Image</TableCell>
+
             </TableRow>
             </TableHead>
             <TableBody>
@@ -38,6 +40,9 @@ const Hw = () => {
                             <TableCell>{val.title}</TableCell>
                             <TableCell>{val.price}</TableCell>
                             <TableCell>{val.category}</TableCell>
+                            <TableCell sx={{height:'10px', width:'10px'}}>
+                               <img src={val.image} alt={val.title} style={{ height: '50px', width: '50px' }} />
+                            </TableCell>
                         </TableRow>
                     )
                 })}

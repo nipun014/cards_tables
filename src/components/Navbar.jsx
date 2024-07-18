@@ -16,6 +16,7 @@ const Navbar = () => {
 
                 <Button color="inherit"><Link to={'/c'} style={{textDecoration: "none", color:'white'}}>Cards</Link></Button>
                 <Button color="inherit"><Link to={'/t'} style={{textDecoration: "none", color:'white'}}>Table</Link></Button>
+                <Button color="inherit"><Link to={'/new'} style={{textDecoration: "none", color:'white'}}>Add</Link></Button>
 
                 </Toolbar>
             </AppBar>

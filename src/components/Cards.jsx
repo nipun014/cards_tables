@@ -25,6 +25,7 @@ const Cards = () => {
           <Grid item xs={12} md={4} key={i}>
             <Card sx={{ minWidth: 275 }}>
               <CardContent>
+              <img src={val.image} alt={val.title} style={{ height: '300px', width: '300px' }} />
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   Category:{val.category}
                 </Typography>
